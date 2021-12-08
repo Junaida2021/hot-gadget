@@ -2,6 +2,52 @@ body{
     margin: 0;
     padding: 0;
 }
+
+header{
+    background-image: url(images/fixed.jpg);
+    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+.navbar-icon i{
+    color: white!important;
+}
+.navbar-brand img{
+    width: 140px;
+    height: auto;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgb(217, 217, 217,01);
+}                                                                     
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 10%;
+    transition: 0.4s;
+   
+}
+.nav-link:hover{
+    color: white;
+   background-color: black;
+   transform: scale(1.1);
+}
+.btn{
+    background-color: #634936;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
 .img-add{
     width: 60%;
 }
